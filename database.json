@@ -1,0 +1,138 @@
+{
+    "users": [
+        {   
+            "id": 1,
+            "name": "Benny",
+            "email": "benny@gmail.com",
+            "pupSitting": true,
+            "aboutMe": "Lorem ipsum dolor sit amet, quaeque alterum maiestatis nam ne, qui autem soleat prompta in. Ne fugit imperdiet vim, nam id oblique sensibus adolescens, aeque affert neglegentur mea et. Eam quod meis modus ei, nec doctus principes evertitur ei. No per prima erant delicatissimi, an mea causae ponderum elaboraret, maiorum omittam pertinacia cu mel. Quas expetenda concludaturque id nam, nec at porro regione fuisset, id mollis nonumes feugait ius."
+        },
+        {
+            "id": 2,
+            "name": "Lola",
+            "email": "lola@gmail.com",
+            "pupSitting": true,
+            "aboutMe": "Lorem ipsum dolor sit amet, quaeque alterum maiestatis nam ne, qui autem soleat prompta in. Ne fugit imperdiet vim, nam id oblique sensibus adolescens, aeque affert neglegentur mea et. Eam quod meis modus ei, nec doctus principes evertitur ei. No per prima erant delicatissimi, an mea causae ponderum elaboraret, maiorum omittam pertinacia cu mel. Quas expetenda concludaturque id nam, nec at porro regione fuisset, id mollis nonumes feugait ius."
+        },
+        {
+            "id": 3,
+            "name": "Marcy",
+            "email": "marcy@gmail.com",
+            "pupSitting": false,
+            "aboutMe": "Lorem ipsum dolor sit amet, quaeque alterum maiestatis nam ne, qui autem soleat prompta in. Ne fugit imperdiet vim, nam id oblique sensibus adolescens, aeque affert neglegentur mea et. Eam quod meis modus ei, nec doctus principes evertitur ei. No per prima erant delicatissimi, an mea causae ponderum elaboraret, maiorum omittam pertinacia cu mel. Quas expetenda concludaturque id nam, nec at porro regione fuisset, id mollis nonumes feugait ius."
+        },
+        {
+            "id": 4,
+            "name": "Dan",
+            "email": "dan@gmail.com",
+            "pupSitting": true,
+            "aboutMe": "Lorem ipsum dolor sit amet, quaeque alterum maiestatis nam ne, qui autem soleat prompta in. Ne fugit imperdiet vim, nam id oblique sensibus adolescens, aeque affert neglegentur mea et. Eam quod meis modus ei, nec doctus principes evertitur ei. No per prima erant delicatissimi, an mea causae ponderum elaboraret, maiorum omittam pertinacia cu mel. Quas expetenda concludaturque id nam, nec at porro regione fuisset, id mollis nonumes feugait ius."
+        }
+    ],
+    "dogs": [
+        {
+            "id": 1,
+            "name": "Spot",
+            "breed": "Jack Russel Terrier",
+            "aboutMe":"Lorem ipsum dolor sit amet, quaeque alterum maiestatis nam ne, qui autem soleat prompta in. Ne fugit imperdiet vim, nam id oblique sensibus adolescens, aeque affert neglegentur mea et. Eam quod meis modus ei, nec doctus principes evertitur ei. No per prima erant delicatissimi, an mea causae ponderum elaboraret, maiorum omittam pertinacia cu mel. Quas expetenda concludaturque id nam, nec at porro regione fuisset, id mollis nonumes feugait ius.",
+            "image": "https://images.ctfassets.net/440y9b545yd9/4pyPYwiDpsonTrKbMgk6Ry/fa578f93d3633d431a3efd320fdd69c8/5-things-jack-russell-hero850__1_.jpg",
+            "userId": 1,
+            "sizeId": 1,
+            "energyLevelId": 3,
+            "ageGroupId": 1
+        }, 
+        {
+            "id": 2,
+            "name": "Princess",
+            "breed": "Mixed Breed",
+            "aboutMe":"Lorem ipsum dolor sit amet, quaeque alterum maiestatis nam ne, qui autem soleat prompta in. Ne fugit imperdiet vim, nam id oblique sensibus adolescens, aeque affert neglegentur mea et. Eam quod meis modus ei, nec doctus principes evertitur ei. No per prima erant delicatissimi, an mea causae ponderum elaboraret, maiorum omittam pertinacia cu mel. Quas expetenda concludaturque id nam, nec at porro regione fuisset, id mollis nonumes feugait ius.",
+            "image": "https://images.ctfassets.net/440y9b545yd9/4pyPYwiDpsonTrKbMgk6Ry/fa578f93d3633d431a3efd320fdd69c8/5-things-jack-russell-hero850__1_.jpg",
+            "userId": 2,
+            "sizeId": 3,
+            "energyLevelId": 3,
+            "ageGroupId": 3
+        }, 
+        {
+            "id": 3,
+            "name": "Lola",
+            "breed": "Pitbull",
+            "aboutMe":"Lorem ipsum dolor sit amet, quaeque alterum maiestatis nam ne, qui autem soleat prompta in. Ne fugit imperdiet vim, nam id oblique sensibus adolescens, aeque affert neglegentur mea et. Eam quod meis modus ei, nec doctus principes evertitur ei. No per prima erant delicatissimi, an mea causae ponderum elaboraret, maiorum omittam pertinacia cu mel. Quas expetenda concludaturque id nam, nec at porro regione fuisset, id mollis nonumes feugait ius.",
+            "image": "https://images.ctfassets.net/440y9b545yd9/4pyPYwiDpsonTrKbMgk6Ry/fa578f93d3633d431a3efd320fdd69c8/5-things-jack-russell-hero850__1_.jpg",
+            "userId": 3,
+            "sizeId": 2,
+            "energyLevelId": 2,
+            "ageGroupId": 2
+        }, 
+        {
+            "id": 4,
+            "name": "Carter",
+            "breed": "Golden Retriever",
+            "aboutMe":"Lorem ipsum dolor sit amet, quaeque alterum maiestatis nam ne, qui autem soleat prompta in. Ne fugit imperdiet vim, nam id oblique sensibus adolescens, aeque affert neglegentur mea et. Eam quod meis modus ei, nec doctus principes evertitur ei. No per prima erant delicatissimi, an mea causae ponderum elaboraret, maiorum omittam pertinacia cu mel. Quas expetenda concludaturque id nam, nec at porro regione fuisset, id mollis nonumes feugait ius.",
+            "image": "https://images.ctfassets.net/440y9b545yd9/4pyPYwiDpsonTrKbMgk6Ry/fa578f93d3633d431a3efd320fdd69c8/5-things-jack-russell-hero850__1_.jpg",
+            "userId": 4,
+            "sizeId": 3,
+            "energyLevelId": 2,
+            "ageGroupId": 2
+        }
+
+    ],
+    "energyLevel": [
+        {
+            "id": 1,
+            "energy": "low"
+        },
+        {
+            "id": 2,
+            "energy": "medium"
+        },
+        {
+            "id": 3,
+            "energy": "high"
+        }
+    ],
+    "ageGroup": [
+        {
+            "id": 1,
+            "age": "Juvenile (< 1 yr)"
+        },
+        {
+            "id": 2,
+            "age":"Adult (1-8 yrs)"
+        }, 
+        {
+            "id": 3,
+            "age": "Senior (> 8 yrs)"
+        }
+
+    ],
+    "sizes": [
+        {
+            "id": 1,
+            "size": "Small (< 20 lbs)"
+        },
+        {
+            "id": 2,
+            "size": "Medium (20 - 45 lbs)"
+        }, 
+        {
+            "id": 3, 
+            "size": "Large (45 - 80 lbs)"
+        },
+        {
+            "id": 4, 
+            "size": "X-Large ( > 80 lbs)"
+        }
+    ],
+    "dogParks": [
+        {
+
+        }
+    ],
+    "requests": [
+        {
+            "id": 1, 
+            "initiatingDogId": 1, 
+            "recievingDogId": 2
+        }
+    ]
+}
