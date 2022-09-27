@@ -1,138 +1,659 @@
 {
-    "users": [
-        {   
-            "id": 1,
-            "name": "Benny",
-            "email": "benny@gmail.com",
-            "pupSitting": true,
-            "aboutMe": "Lorem ipsum dolor sit amet, quaeque alterum maiestatis nam ne, qui autem soleat prompta in. Ne fugit imperdiet vim, nam id oblique sensibus adolescens, aeque affert neglegentur mea et. Eam quod meis modus ei, nec doctus principes evertitur ei. No per prima erant delicatissimi, an mea causae ponderum elaboraret, maiorum omittam pertinacia cu mel. Quas expetenda concludaturque id nam, nec at porro regione fuisset, id mollis nonumes feugait ius."
-        },
-        {
-            "id": 2,
-            "name": "Lola",
-            "email": "lola@gmail.com",
-            "pupSitting": true,
-            "aboutMe": "Lorem ipsum dolor sit amet, quaeque alterum maiestatis nam ne, qui autem soleat prompta in. Ne fugit imperdiet vim, nam id oblique sensibus adolescens, aeque affert neglegentur mea et. Eam quod meis modus ei, nec doctus principes evertitur ei. No per prima erant delicatissimi, an mea causae ponderum elaboraret, maiorum omittam pertinacia cu mel. Quas expetenda concludaturque id nam, nec at porro regione fuisset, id mollis nonumes feugait ius."
-        },
-        {
-            "id": 3,
-            "name": "Marcy",
-            "email": "marcy@gmail.com",
-            "pupSitting": false,
-            "aboutMe": "Lorem ipsum dolor sit amet, quaeque alterum maiestatis nam ne, qui autem soleat prompta in. Ne fugit imperdiet vim, nam id oblique sensibus adolescens, aeque affert neglegentur mea et. Eam quod meis modus ei, nec doctus principes evertitur ei. No per prima erant delicatissimi, an mea causae ponderum elaboraret, maiorum omittam pertinacia cu mel. Quas expetenda concludaturque id nam, nec at porro regione fuisset, id mollis nonumes feugait ius."
-        },
-        {
-            "id": 4,
-            "name": "Dan",
-            "email": "dan@gmail.com",
-            "pupSitting": true,
-            "aboutMe": "Lorem ipsum dolor sit amet, quaeque alterum maiestatis nam ne, qui autem soleat prompta in. Ne fugit imperdiet vim, nam id oblique sensibus adolescens, aeque affert neglegentur mea et. Eam quod meis modus ei, nec doctus principes evertitur ei. No per prima erant delicatissimi, an mea causae ponderum elaboraret, maiorum omittam pertinacia cu mel. Quas expetenda concludaturque id nam, nec at porro regione fuisset, id mollis nonumes feugait ius."
-        }
-    ],
-    "dogs": [
-        {
-            "id": 1,
-            "name": "Spot",
-            "breed": "Jack Russel Terrier",
-            "aboutMe":"Lorem ipsum dolor sit amet, quaeque alterum maiestatis nam ne, qui autem soleat prompta in. Ne fugit imperdiet vim, nam id oblique sensibus adolescens, aeque affert neglegentur mea et. Eam quod meis modus ei, nec doctus principes evertitur ei. No per prima erant delicatissimi, an mea causae ponderum elaboraret, maiorum omittam pertinacia cu mel. Quas expetenda concludaturque id nam, nec at porro regione fuisset, id mollis nonumes feugait ius.",
-            "image": "https://images.ctfassets.net/440y9b545yd9/4pyPYwiDpsonTrKbMgk6Ry/fa578f93d3633d431a3efd320fdd69c8/5-things-jack-russell-hero850__1_.jpg",
-            "userId": 1,
-            "sizeId": 1,
-            "energyLevelId": 3,
-            "ageGroupId": 1
-        }, 
-        {
-            "id": 2,
-            "name": "Princess",
-            "breed": "Mixed Breed",
-            "aboutMe":"Lorem ipsum dolor sit amet, quaeque alterum maiestatis nam ne, qui autem soleat prompta in. Ne fugit imperdiet vim, nam id oblique sensibus adolescens, aeque affert neglegentur mea et. Eam quod meis modus ei, nec doctus principes evertitur ei. No per prima erant delicatissimi, an mea causae ponderum elaboraret, maiorum omittam pertinacia cu mel. Quas expetenda concludaturque id nam, nec at porro regione fuisset, id mollis nonumes feugait ius.",
-            "image": "https://images.ctfassets.net/440y9b545yd9/4pyPYwiDpsonTrKbMgk6Ry/fa578f93d3633d431a3efd320fdd69c8/5-things-jack-russell-hero850__1_.jpg",
-            "userId": 2,
-            "sizeId": 3,
-            "energyLevelId": 3,
-            "ageGroupId": 3
-        }, 
-        {
-            "id": 3,
-            "name": "Lola",
-            "breed": "Pitbull",
-            "aboutMe":"Lorem ipsum dolor sit amet, quaeque alterum maiestatis nam ne, qui autem soleat prompta in. Ne fugit imperdiet vim, nam id oblique sensibus adolescens, aeque affert neglegentur mea et. Eam quod meis modus ei, nec doctus principes evertitur ei. No per prima erant delicatissimi, an mea causae ponderum elaboraret, maiorum omittam pertinacia cu mel. Quas expetenda concludaturque id nam, nec at porro regione fuisset, id mollis nonumes feugait ius.",
-            "image": "https://images.ctfassets.net/440y9b545yd9/4pyPYwiDpsonTrKbMgk6Ry/fa578f93d3633d431a3efd320fdd69c8/5-things-jack-russell-hero850__1_.jpg",
-            "userId": 3,
-            "sizeId": 2,
-            "energyLevelId": 2,
-            "ageGroupId": 2
-        }, 
-        {
-            "id": 4,
-            "name": "Carter",
-            "breed": "Golden Retriever",
-            "aboutMe":"Lorem ipsum dolor sit amet, quaeque alterum maiestatis nam ne, qui autem soleat prompta in. Ne fugit imperdiet vim, nam id oblique sensibus adolescens, aeque affert neglegentur mea et. Eam quod meis modus ei, nec doctus principes evertitur ei. No per prima erant delicatissimi, an mea causae ponderum elaboraret, maiorum omittam pertinacia cu mel. Quas expetenda concludaturque id nam, nec at porro regione fuisset, id mollis nonumes feugait ius.",
-            "image": "https://images.ctfassets.net/440y9b545yd9/4pyPYwiDpsonTrKbMgk6Ry/fa578f93d3633d431a3efd320fdd69c8/5-things-jack-russell-hero850__1_.jpg",
-            "userId": 4,
-            "sizeId": 3,
-            "energyLevelId": 2,
-            "ageGroupId": 2
-        }
-
-    ],
-    "energyLevel": [
-        {
-            "id": 1,
-            "energy": "low"
-        },
-        {
-            "id": 2,
-            "energy": "medium"
-        },
-        {
-            "id": 3,
-            "energy": "high"
-        }
-    ],
-    "ageGroup": [
-        {
-            "id": 1,
-            "age": "Juvenile (< 1 yr)"
-        },
-        {
-            "id": 2,
-            "age":"Adult (1-8 yrs)"
-        }, 
-        {
-            "id": 3,
-            "age": "Senior (> 8 yrs)"
-        }
-
-    ],
-    "sizes": [
-        {
-            "id": 1,
-            "size": "Small (< 20 lbs)"
-        },
-        {
-            "id": 2,
-            "size": "Medium (20 - 45 lbs)"
-        }, 
-        {
-            "id": 3, 
-            "size": "Large (45 - 80 lbs)"
-        },
-        {
-            "id": 4, 
-            "size": "X-Large ( > 80 lbs)"
-        }
-    ],
-    "dogParks": [
-        {
-
-        }
-    ],
-    "requests": [
-        {
-            "id": 1, 
-            "initiatingDogId": 1, 
-            "recievingDogId": 2
-        }
-    ]
+  "users": [
+    {
+      "name": "Cindy",
+      "email": "cindy@gmail.com",
+      "pupSitting": true,
+      "aboutMe": "Lorem ipsum dolor sit amet, quaeque alterum maiestatis nam ne, qui autem soleat prompta in. Ne fugit imperdiet vim, nam id oblique sensibus adolescens, aeque affert neglegentur mea et. Eam quod meis modus ei, nec doctus principes evertitur ei. No per prima erant delicatissimi, an mea causae ponderum elaboraret, maiorum omittam pertinacia cu mel. Quas expetenda concludaturque id nam, nec at porro regione fuisset, id mollis nonumes feugait ius.",
+      "id": 2
+    },
+    {
+      "name": "Lauren ",
+      "email": "Lauren@gmail.com",
+      "pupSitting": true,
+      "aboutMe": "is nam ne, qui autem soleat prompta in. Ne fugit imperdiet vim, nam id oblique sensibus adolescens, aeque affert neglegentur mea et. Eam quod meis modus ei, nec doctus principes evertitur ei. No per prima erant delicatissimi, an mea causae ponderum elaboraret, maiorum omittam pertinacia cu mel. Quas expetenda concludaturque id nam, nec at porro regione fuisset, id mollis nonumes feugait ius.",
+      "id": 5
+    },
+    {
+      "name": "Felicia DiCarlo",
+      "email": "felicia@gmail.com",
+      "pupSitting": false,
+      "aboutMe": "Second year PhD student at Baylor University. ",
+      "id": 6
+    },
+    {
+      "name": "Carly Doppelheuer",
+      "email": "carly@gmail.com",
+      "pupSitting": true,
+      "aboutMe": "Software Developer at Nashville Software School. ",
+      "id": 8
+    },
+    {
+      "name": "Jonathan Woodard",
+      "email": "jonathan@gmail.com",
+      "pupSitting": false,
+      "aboutMe": "Full-Stack Software Development student at Nashville Software School. ",
+      "id": 9
+    },
+    {
+      "name": "Nicholas Casale",
+      "email": "nick@gmail.com",
+      "pupSitting": true,
+      "aboutMe": "Full time student at Nashville Software School, studying web development. ",
+      "id": 10
+    },
+    {
+      "name": "Faith Cox",
+      "email": "faith@gmail.com",
+      "pupSitting": false,
+      "aboutMe": "Software development student at Nashville Software School. ",
+      "id": 11
+    },
+    {
+      "name": "Brandon Herbison",
+      "email": "brandon@gmail.com",
+      "pupSitting": true,
+      "aboutMe": "Software Development student at Nashville Software School. ",
+      "id": 12
+    },
+    {
+      "name": "Adam Featherston",
+      "email": "adam@gmail.com",
+      "pupSitting": false,
+      "aboutMe": "Full time student studying full stack web development at Nashville Software School. ",
+      "id": 13
+    },
+    {
+      "name": "Adam Chance",
+      "email": "adamC@gmail.com",
+      "pupSitting": false,
+      "aboutMe": "Full time student at Nashville Software School ",
+      "id": 14
+    },
+    {
+      "name": "Steve Brownlee",
+      "email": "steve@gmail.com",
+      "pupSitting": true,
+      "aboutMe": "Head Coach at Nashville Software School. ",
+      "id": 15
+    },
+    {
+      "name": "Ameena Mashaikh",
+      "email": "ameena@gmail.com",
+      "pupSitting": true,
+      "aboutMe": "Full stack web development student at Nashville Software School",
+      "id": 16
+    },
+    {
+      "name": "Shane Standifur",
+      "email": "shane@gmail.com",
+      "pupSitting": false,
+      "aboutMe": "Full time student taking remote courses through Nashville Software School.",
+      "id": 17
+    },
+    {
+      "name": "Shelby Joiner",
+      "email": "shelby@gmail.com",
+      "pupSitting": false,
+      "aboutMe": "Student at Nashville Software School studying full stack web development. ",
+      "id": 18
+    },
+    {
+      "name": "Kelly Francoeur",
+      "email": "kelly@gmail.com",
+      "pupSitting": true,
+      "aboutMe": "Student at Nashville Software School. ",
+      "id": 19
+    },
+    {
+      "name": "James Scott ",
+      "email": "james@gmail.com",
+      "pupSitting": false,
+      "aboutMe": "Full time software developer student at Nashville Software School. ",
+      "id": 20
+    },
+    {
+      "name": "Russ Pelton",
+      "email": "russ@gmail.com",
+      "pupSitting": false,
+      "aboutMe": "Full stack web development student at Nashville Software School. ",
+      "id": 21
+    },
+    {
+      "name": "Matt Martino",
+      "email": "matt@gmail.com",
+      "pupSitting": true,
+      "aboutMe": "Software engineering student at Nashville Software School. ",
+      "id": 22
+    },
+    {
+      "name": "Gracie Parce",
+      "email": "gracie@gmail.com",
+      "pupSitting": false,
+      "aboutMe": "Software Development student at Nashville Software School. ",
+      "id": 23
+    },
+    {
+      "name": "test",
+      "email": "test@gmail.com",
+      "pupSitting": false,
+      "aboutMe": "test",
+      "id": 24
+    }
+  ],
+  "dogs": [
+    {
+      "name": "PJ",
+      "breed": "Lhasapoo (Lhasa Apso + Poodle) ",
+      "aboutMe": "Loves cuddling on mom's lap while she does her online schooling. Occasionally makes his presence known by grumbling into the mic. Loves naps!",
+      "image": "http://res.cloudinary.com/pupdates/image/upload/v1663707355/vzialr2q5v7hw3tugn3k.jpg",
+      "userId": 8,
+      "sizeId": 1,
+      "energyLevelId": 1,
+      "ageGroupId": 3,
+      "id": 8
+    },
+    {
+      "name": "Riley",
+      "breed": "Pitbull/Lab Mix",
+      "aboutMe": "Riley is super playful and sweet, and loves to play tug of war! 90% of the time she is great off leash, but if a bird or animal catches her eye, she can't say no to a good chase. Enclosed dog parks only please!",
+      "image": "http://res.cloudinary.com/pupdates/image/upload/v1663902055/twon8eiq3cvs5xn9xgvl.png",
+      "userId": 9,
+      "sizeId": 3,
+      "energyLevelId": 2,
+      "ageGroupId": 2,
+      "id": 9
+    },
+    {
+      "name": "Gordie",
+      "breed": "Border Collie",
+      "aboutMe": "He plays hockey and loves to pull his owner on rollerblades!",
+      "image": "http://res.cloudinary.com/pupdates/image/upload/v1663785699/ttnoxnkrhwkogjslf5jn.jpg",
+      "userId": 10,
+      "sizeId": 2,
+      "energyLevelId": 3,
+      "ageGroupId": 2,
+      "id": 10
+    },
+    {
+      "name": "Luna",
+      "breed": "Beagle/Shiba Inu Mix",
+      "aboutMe": "Luna loves to run free at the dog park, pick on her little sister, and play with her favorite stuffed pig.",
+      "image": "http://res.cloudinary.com/pupdates/image/upload/v1663786628/rjthhdos3wdbqz3td1u8.png",
+      "userId": 11,
+      "sizeId": 2,
+      "energyLevelId": 3,
+      "ageGroupId": 2,
+      "id": 11
+    },
+    {
+      "name": "Theo",
+      "breed": "French Bulldog",
+      "aboutMe": "Tennis ball aficionado. Lover of hands. ",
+      "image": "http://res.cloudinary.com/pupdates/image/upload/v1663786890/tpelsnf79w6ydq8bha9l.jpg",
+      "userId": 12,
+      "sizeId": 2,
+      "energyLevelId": 2,
+      "ageGroupId": 2,
+      "id": 12
+    },
+    {
+      "name": "Thor",
+      "breed": "GoldenDoodle",
+      "aboutMe": "I am a lovable pup who adores your attention, especially when putting on socks to take me on a walk.  I do tend to be clumsy and can knock things over with my happy tail.",
+      "image": "http://res.cloudinary.com/pupdates/image/upload/v1663787364/gtxekn7oxikz2lrt1fof.jpg",
+      "userId": 13,
+      "sizeId": 4,
+      "energyLevelId": 2,
+      "ageGroupId": 2,
+      "id": 13
+    },
+    {
+      "name": "Dozer",
+      "breed": "Boxer/Blue Pit Mix",
+      "aboutMe": "Escape artist, chaser of deer, and currently designing his own cologne scent Eau de Toilette Pond: pond infused with skunk.",
+      "image": "http://res.cloudinary.com/pupdates/image/upload/v1663788014/kv7if7weslxgsjxgsba4.jpg",
+      "userId": 14,
+      "sizeId": 3,
+      "energyLevelId": 1,
+      "ageGroupId": 2,
+      "id": 14
+    },
+    {
+      "name": "Bentley",
+      "breed": "Mixed",
+      "aboutMe": "Bentley loves to take long walks around the neighborhood at a leisurely pace. He doesn’t like to chase balls, or chew on toys, and he enjoys long naps in the afternoon.",
+      "image": "http://res.cloudinary.com/pupdates/image/upload/v1663788443/ncdzzg8lxeqqoxzjeudt.jpg",
+      "userId": 15,
+      "sizeId": 4,
+      "energyLevelId": 1,
+      "ageGroupId": 3,
+      "id": 15
+    },
+    {
+      "name": "Theo",
+      "breed": "Cavalier Bishon Mix",
+      "aboutMe": "My names Theo, and I love long sits on the couch, cuddling, and the occasional cat chase.  I do not like large or high energy dogs, but all chill vibes are welcome.",
+      "image": "http://res.cloudinary.com/pupdates/image/upload/v1663855320/r300ulc0zgxdbhrjzik0.jpg",
+      "userId": 22,
+      "sizeId": 1,
+      "energyLevelId": 1,
+      "ageGroupId": 2,
+      "id": 22
+    },
+    {
+      "name": "Ruthie and Rosie",
+      "breed": "Newfoundland",
+      "aboutMe": "Ruthie is super energetic and loves being chased! Rosie loves food and napping. ",
+      "image": "http://res.cloudinary.com/pupdates/image/upload/v1663788854/d0mildc5watnkaubqa8c.jpg",
+      "userId": 16,
+      "sizeId": 3,
+      "energyLevelId": 2,
+      "ageGroupId": 2,
+      "id": 16
+    },
+    {
+      "name": "Sadie",
+      "breed": "Rough Collie",
+      "aboutMe": "Loves to play fetch and sleep on her back.",
+      "image": "http://res.cloudinary.com/pupdates/image/upload/v1663790276/oyvkh8yoxzwah14cvd70.jpg",
+      "userId": 17,
+      "sizeId": 3,
+      "energyLevelId": 3,
+      "ageGroupId": 2,
+      "id": 17
+    },
+    {
+      "name": "Rupert (aka \"Rupie\")",
+      "breed": "Pitbull/Everything Mix",
+      "aboutMe": "He loves being a house hippo, tearing up toys, playing with other dogs, and rearranging the pillows on my couch. He's also terrified of cats, but in kind of a cute way.",
+      "image": "http://res.cloudinary.com/pupdates/image/upload/v1663857190/fxec6ky7pptmnbkgdtyn.jpg",
+      "userId": 23,
+      "sizeId": 3,
+      "energyLevelId": 2,
+      "ageGroupId": 2,
+      "id": 23
+    },
+    {
+      "name": "Henry",
+      "breed": "Chocolate Lab Mix",
+      "aboutMe": "He loves rubber toys and eating socks.",
+      "image": "http://res.cloudinary.com/pupdates/image/upload/v1663791056/j6snpscirqkpeoqrofir.jpg",
+      "userId": 18,
+      "sizeId": 2,
+      "energyLevelId": 2,
+      "ageGroupId": 2,
+      "id": 18
+    },
+    {
+      "name": "Burt Macklin, FBI (aka \"Mac\")",
+      "breed": "Pitbull/Boxer Mix",
+      "aboutMe": "Loves walks in nature, belly rubs, and car rides. ",
+      "image": "http://res.cloudinary.com/pupdates/image/upload/v1663791188/tocjy7yhrrtozh2ws83y.jpg",
+      "userId": 19,
+      "sizeId": 3,
+      "energyLevelId": 2,
+      "ageGroupId": 2,
+      "id": 19
+    },
+    {
+      "name": "Gypsy",
+      "breed": "Border Collie/Flat Coated Retriever Mix",
+      "aboutMe": "Loves kids and squirrels!",
+      "image": "http://res.cloudinary.com/pupdates/image/upload/v1663791441/vsqjhnjmnm7webhv1w6i.jpg",
+      "userId": 20,
+      "sizeId": 3,
+      "energyLevelId": 2,
+      "ageGroupId": 2,
+      "id": 20
+    },
+    {
+      "name": "Salacious Crumb",
+      "breed": "Sphinx",
+      "aboutMe": "Wants to be held and loved at all times, especially under a warm blanket, or in a sunbeam.",
+      "image": "http://res.cloudinary.com/pupdates/image/upload/v1663791632/myec4aokua0zvhx6ovvo.jpg",
+      "userId": 21,
+      "sizeId": 1,
+      "energyLevelId": 1,
+      "ageGroupId": 3,
+      "id": 21
+    },
+    {
+      "name": "Princess",
+      "breed": "Mixed Breed",
+      "aboutMe": "Lorem ipsum dolor sit amet, quaeque alterum maiestatis nam ne, qui autem soleat prompta in. Ne fugit imperdiet vim, nam id oblique sensibus adolescens, aeque affert neglegentur mea et. Eam quod meis modus ei, nec doctus principes evertitur ei. No per prima erant delicatissimi, an mea causae ponderum elaboraret, maiorum omittam pertinacia cu mel. Quas expetenda concludaturque id nam, nec at porro regione fuisset, id mollis nonumes feugait ius.",
+      "image": "https://www.godspeedanimalcare.com/blog/wp-content/uploads/2018/12/iStock-1041987488.jpg",
+      "userId": 2,
+      "sizeId": 3,
+      "energyLevelId": 3,
+      "ageGroupId": 3,
+      "id": 2
+    },
+    {
+      "name": "Roy",
+      "breed": "Mixed Breed",
+      "aboutMe": "is nam ne, qui autem soleat prompta in. Ne fugit imperdiet vim, nam id oblique sensibus adolescens, aeque affert neglegentur mea et. Eam quod meis modus ei, nec doctus principes evertitur ei. No per prima erant delicatissimi, an mea causae ponderum elaboraret, maiorum omittam pertinacia cu mel. Quas expetenda concludaturque id nam, nec at porro regione fuisset, id mollis nonumes feugait ius.",
+      "image": "https://eadn-wc02-4253661.nxedge.io/cdn/wp-content/uploads/2020/03/Stanford-2-3-14-20.jpg",
+      "userId": 5,
+      "sizeId": 3,
+      "energyLevelId": 3,
+      "ageGroupId": 2,
+      "id": 5
+    },
+    {
+      "name": "Duke",
+      "breed": "Terrier Mix",
+      "aboutMe": "Loves chasing birds in the backyard and swimming in the pool. Will play fetch for as long as the ball is being thrown. ",
+      "image": "http://res.cloudinary.com/pupdates/image/upload/v1663609238/q3vsr34hibk1z6rfkmf0.jpg",
+      "userId": 6,
+      "sizeId": 1,
+      "energyLevelId": 2,
+      "ageGroupId": 2,
+      "id": 6
+    }
+  ],
+  "energyLevels": [
+    {
+      "id": 1,
+      "energy": "Low"
+    },
+    {
+      "id": 2,
+      "energy": "Medium"
+    },
+    {
+      "id": 3,
+      "energy": "High"
+    }
+  ],
+  "ageGroups": [
+    {
+      "id": 1,
+      "age": "Juvenile (< 1 yr)"
+    },
+    {
+      "id": 2,
+      "age": "Adult (1-8 yrs)"
+    },
+    {
+      "id": 3,
+      "age": "Senior (> 8 yrs)"
+    }
+  ],
+  "sizes": [
+    {
+      "id": 1,
+      "size": "Small (< 20 lbs)"
+    },
+    {
+      "id": 2,
+      "size": "Medium (20 - 45 lbs)"
+    },
+    {
+      "id": 3,
+      "size": "Large (45 - 80 lbs)"
+    },
+    {
+      "id": 4,
+      "size": "X-Large ( > 80 lbs)"
+    }
+  ],
+  "dogParks": [
+    {
+      "name": "Warner Dog Park",
+      "hours": "Dawn to Dusk",
+      "location": "Edwin Warner Park, 50 Vaughn Road",
+      "image": "https://ineedpetcare.com/wp-content/uploads/2016/01/edwin-warner-dog-park.jpg"
+    },
+    {
+      "name": "Shelby Dog Park",
+      "hours": "Dawn to Dusk",
+      "location": "Shelby Avenue at S. 20th Street",
+      "image": "https://assets.wagwalkingweb.com/static/webpack-assets/img/wagcontent/lifestyle_articles/static/lifestyle_articles/img/parks/park2-771fcb75d724c700e07530f3b99744b7.jpg"
+    },
+    {
+      "name": "Centennial Dog Park",
+      "hours": "Dawn to Dusk",
+      "location": "2500 West End Avenue",
+      "image": "https://ak.jogurucdn.com/media/image/p25/place-2017-12-22-5-a3e16361a2d61351015b59fc9121eda6.jpg"
+    },
+    {
+      "name": "Pitts Dog Park",
+      "hours": "Dawn to Dusk",
+      "location": "299 Tusculum Road",
+      "image": "https://assets.wagwalkingweb.com/static/webpack-assets/img/wagcontent/lifestyle_articles/static/lifestyle_articles/img/parks/park11-1c718612a33b1737818ccf3f29e45537.jpg"
+    },
+    {
+      "name": "Two Rivers Dog Park",
+      "hours": "Dawn to Dusk",
+      "location": "3150 McGavock Pike",
+      "image": "https://focusedonnashvillecom.files.wordpress.com/2015/05/img_8938.jpg"
+    },
+    {
+      "name": "Percy Priest Dam Dog Park",
+      "hours": "Dawn to Dusk",
+      "location": "3778 Bell Road",
+      "image": "https://www.gannett-cdn.com/-mm-/ff8a1415c9aafbaf54b2d6270aff757838e14682/c=0-239-3595-2270/local/-/media/2018/06/29/TennGroup/Nashville/636658806395344846-PercyPriest-062818-004.jpg"
+    },
+    {
+      "name": "Frankie Pierce Dog Park",
+      "hours": "Dawn to 11 p.m.",
+      "location": "130 Lifeway Plaza",
+      "image": "https://s3-media0.fl.yelpcdn.com/bphoto/28lXajPGkTjsNt8VO_ofiw/348s.jpg"
+    },
+    {
+      "name": "Riverfront Dog Park At Ascend",
+      "hours": "Dawn to 11 p.m.",
+      "location": "200 1st Ave S",
+      "image": "https://styleblueprint.com/wp-content/uploads/2022/07/SB-Nashville-Dog-Parks-Downtown-Dog-Park-Credit-Dog-Friendly-Nash-IG.jpeg"
+    },
+    {
+      "name": "Fair Park Dog Park",
+      "hours": "Dawn to 8 p.m.",
+      "location": "300 Raines Ave",
+      "image": "https://fastly.4sqi.net/img/general/600x600/1198255_UpUmN9sMszfNUJ_QVSOg8xoX8LWthtxbldUHndE_hbo.jpg"
+    }
+  ],
+  "requests": [
+    {
+      "id": 1,
+      "initiatingDogId": 1,
+      "recievingDogId": 2
+    },
+    {
+      "initiatingDogId": 1,
+      "recievingDogId": 3,
+      "id": 3
+    },
+    {
+      "initiatingDogId": 1,
+      "recievingDogId": 5,
+      "id": 4
+    },
+    {
+      "initiatingDogId": 4,
+      "recievingDogId": 5,
+      "id": 6
+    },
+    {
+      "initiatingDogId": 5,
+      "recievingDogId": 1,
+      "id": 8
+    },
+    {
+      "initiatingDogId": 4,
+      "recievingDogId": 2,
+      "id": 9
+    },
+    {
+      "initiatingDogId": 2,
+      "recievingDogId": 1,
+      "id": 10
+    },
+    {
+      "initiatingDogId": 2,
+      "recievingDogId": 5,
+      "id": 11
+    },
+    {
+      "initiatingDogId": 1,
+      "recievingDogId": 4,
+      "id": 12
+    },
+    {
+      "initiatingDogId": 1,
+      "recievingDogId": 2,
+      "id": 13
+    },
+    {
+      "initiatingDogId": 2,
+      "recievingDogId": 4,
+      "id": 14
+    },
+    {
+      "initiatingDogId": 9,
+      "recievingDogId": 8,
+      "id": 15
+    },
+    {
+      "initiatingDogId": 8,
+      "recievingDogId": 9,
+      "id": 16
+    },
+    {
+      "initiatingDogId": 9,
+      "recievingDogId": 16,
+      "id": 19
+    },
+    {
+      "initiatingDogId": 9,
+      "recievingDogId": 18,
+      "id": 20
+    },
+    {
+      "initiatingDogId": 9,
+      "recievingDogId": 17,
+      "id": 21
+    },
+    {
+      "initiatingDogId": 9,
+      "recievingDogId": 20,
+      "id": 22
+    },
+    {
+      "initiatingDogId": 12,
+      "recievingDogId": 20,
+      "id": 24
+    },
+    {
+      "initiatingDogId": 12,
+      "recievingDogId": 15,
+      "id": 25
+    },
+    {
+      "initiatingDogId": 12,
+      "recievingDogId": 19,
+      "id": 26
+    },
+    {
+      "initiatingDogId": 12,
+      "recievingDogId": 16,
+      "id": 27
+    },
+    {
+      "initiatingDogId": 10,
+      "recievingDogId": 15,
+      "id": 28
+    },
+    {
+      "initiatingDogId": 13,
+      "recievingDogId": 12,
+      "id": 31
+    },
+    {
+      "initiatingDogId": 13,
+      "recievingDogId": 23,
+      "id": 32
+    },
+    {
+      "initiatingDogId": 13,
+      "recievingDogId": 18,
+      "id": 33
+    },
+    {
+      "initiatingDogId": 8,
+      "recievingDogId": 13,
+      "id": 34
+    },
+    {
+      "initiatingDogId": 13,
+      "recievingDogId": 15,
+      "id": 35
+    },
+    {
+      "initiatingDogId": 24,
+      "recievingDogId": 11,
+      "id": 36
+    },
+    {
+      "initiatingDogId": 17,
+      "recievingDogId": 23,
+      "id": 37
+    },
+    {
+      "initiatingDogId": 17,
+      "recievingDogId": 19,
+      "id": 38
+    },
+    {
+      "initiatingDogId": 18,
+      "recievingDogId": 9,
+      "id": 41
+    },
+    {
+      "initiatingDogId": 18,
+      "recievingDogId": 22,
+      "id": 42
+    },
+    {
+      "initiatingDogId": 19,
+      "recievingDogId": 11,
+      "id": 43
+    },
+    {
+      "initiatingDogId": 19,
+      "recievingDogId": 13,
+      "id": 44
+    },
+    {
+      "initiatingDogId": 19,
+      "recievingDogId": 20,
+      "id": 46
+    },
+    {
+      "initiatingDogId": 22,
+      "recievingDogId": 12,
+      "id": 47
+    },
+    {
+      "initiatingDogId": 22,
+      "recievingDogId": 18,
+      "id": 48
+    },
+    {
+      "initiatingDogId": 22,
+      "recievingDogId": 9,
+      "id": 49
+    },
+    {
+      "initiatingDogId": 8,
+      "recievingDogId": 15,
+      "id": 50
+    },
+    {
+      "initiatingDogId": 14,
+      "recievingDogId": 8,
+      "id": 51
+    }
+  ]
 }
