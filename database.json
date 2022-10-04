@@ -1,17 +1,17 @@
 {
   "users": [
     {
-      "name": "Cindy",
+      "name": "Cindy Green",
       "email": "cindy@gmail.com",
       "pupSitting": true,
-      "aboutMe": "Lorem ipsum dolor sit amet, quaeque alterum maiestatis nam ne, qui autem soleat prompta in. Ne fugit imperdiet vim, nam id oblique sensibus adolescens, aeque affert neglegentur mea et. Eam quod meis modus ei, nec doctus principes evertitur ei. No per prima erant delicatissimi, an mea causae ponderum elaboraret, maiorum omittam pertinacia cu mel. Quas expetenda concludaturque id nam, nec at porro regione fuisset, id mollis nonumes feugait ius.",
+      "aboutMe": "High school chemistry teacher. ",
       "id": 2
     },
     {
-      "name": "Lauren ",
-      "email": "Lauren@gmail.com",
+      "name": "Lauren Tomich",
+      "email": "lauren@gmail.com",
       "pupSitting": true,
-      "aboutMe": "is nam ne, qui autem soleat prompta in. Ne fugit imperdiet vim, nam id oblique sensibus adolescens, aeque affert neglegentur mea et. Eam quod meis modus ei, nec doctus principes evertitur ei. No per prima erant delicatissimi, an mea causae ponderum elaboraret, maiorum omittam pertinacia cu mel. Quas expetenda concludaturque id nam, nec at porro regione fuisset, id mollis nonumes feugait ius.",
+      "aboutMe": "Dermatology resident at Vanderbilt University. ",
       "id": 5
     },
     {
@@ -132,13 +132,6 @@
       "pupSitting": false,
       "aboutMe": "Software Development student at Nashville Software School. ",
       "id": 23
-    },
-    {
-      "name": "test",
-      "email": "test@gmail.com",
-      "pupSitting": false,
-      "aboutMe": "test",
-      "id": 24
     }
   ],
   "dogs": [
@@ -321,18 +314,18 @@
     {
       "name": "Princess",
       "breed": "Mixed Breed",
-      "aboutMe": "Lorem ipsum dolor sit amet, quaeque alterum maiestatis nam ne, qui autem soleat prompta in. Ne fugit imperdiet vim, nam id oblique sensibus adolescens, aeque affert neglegentur mea et. Eam quod meis modus ei, nec doctus principes evertitur ei. No per prima erant delicatissimi, an mea causae ponderum elaboraret, maiorum omittam pertinacia cu mel. Quas expetenda concludaturque id nam, nec at porro regione fuisset, id mollis nonumes feugait ius.",
+      "aboutMe": "Will sit by your side for as long as you will pet her. Gets along with dogs of all sizes and energy levels. ",
       "image": "https://www.godspeedanimalcare.com/blog/wp-content/uploads/2018/12/iStock-1041987488.jpg",
       "userId": 2,
       "sizeId": 3,
-      "energyLevelId": 3,
-      "ageGroupId": 3,
+      "energyLevelId": 2,
+      "ageGroupId": 2,
       "id": 2
     },
     {
       "name": "Roy",
       "breed": "Mixed Breed",
-      "aboutMe": "is nam ne, qui autem soleat prompta in. Ne fugit imperdiet vim, nam id oblique sensibus adolescens, aeque affert neglegentur mea et. Eam quod meis modus ei, nec doctus principes evertitur ei. No per prima erant delicatissimi, an mea causae ponderum elaboraret, maiorum omittam pertinacia cu mel. Quas expetenda concludaturque id nam, nec at porro regione fuisset, id mollis nonumes feugait ius.",
+      "aboutMe": "Chasing after frisbees and swimming in the lake are my favorite activities. I enjoy playing with other dogs that can match my energy level and enthusiasm. ",
       "image": "https://eadn-wc02-4253661.nxedge.io/cdn/wp-content/uploads/2020/03/Stanford-2-3-14-20.jpg",
       "userId": 5,
       "sizeId": 3,
@@ -456,34 +449,14 @@
   ],
   "requests": [
     {
-      "id": 1,
-      "initiatingDogId": 1,
-      "recievingDogId": 2
-    },
-    {
       "initiatingDogId": 1,
       "recievingDogId": 3,
       "id": 3
     },
     {
-      "initiatingDogId": 1,
-      "recievingDogId": 5,
-      "id": 4
-    },
-    {
-      "initiatingDogId": 4,
-      "recievingDogId": 5,
-      "id": 6
-    },
-    {
       "initiatingDogId": 5,
       "recievingDogId": 1,
       "id": 8
-    },
-    {
-      "initiatingDogId": 4,
-      "recievingDogId": 2,
-      "id": 9
     },
     {
       "initiatingDogId": 2,
@@ -499,11 +472,6 @@
       "initiatingDogId": 1,
       "recievingDogId": 4,
       "id": 12
-    },
-    {
-      "initiatingDogId": 1,
-      "recievingDogId": 2,
-      "id": 13
     },
     {
       "initiatingDogId": 2,
@@ -561,11 +529,6 @@
       "id": 27
     },
     {
-      "initiatingDogId": 10,
-      "recievingDogId": 15,
-      "id": 28
-    },
-    {
       "initiatingDogId": 13,
       "recievingDogId": 12,
       "id": 31
@@ -584,16 +547,6 @@
       "initiatingDogId": 8,
       "recievingDogId": 13,
       "id": 34
-    },
-    {
-      "initiatingDogId": 13,
-      "recievingDogId": 15,
-      "id": 35
-    },
-    {
-      "initiatingDogId": 24,
-      "recievingDogId": 11,
-      "id": 36
     },
     {
       "initiatingDogId": 17,
@@ -637,13 +590,28 @@
     },
     {
       "initiatingDogId": 19,
-      "recievingDogId": 15,
-      "id": 45
-    },
-    {
-      "initiatingDogId": 19,
       "recievingDogId": 20,
       "id": 46
+    },
+    {
+      "initiatingDogId": 15,
+      "recievingDogId": 10,
+      "id": 47
+    },
+    {
+      "initiatingDogId": 8,
+      "recievingDogId": 14,
+      "id": 48
+    },
+    {
+      "initiatingDogId": 23,
+      "recievingDogId": 15,
+      "id": 50
+    },
+    {
+      "initiatingDogId": 17,
+      "recievingDogId": 15,
+      "id": 51
     }
   ]
 }
